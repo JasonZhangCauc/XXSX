@@ -1,0 +1,55 @@
+#div1{
+				width:1201px;
+				height:160px;
+				background:url(1.png);
+				margin:0 auto;
+			}
+			#div2{
+				width:1201px;
+				background:url(2.png);
+				margin:0 auto;
+			}
+			#div2.fixed{
+				margin-top:50px;
+			}
+			#nav{
+				opacity: 0.8;
+				z-index: 999;
+				width:100%;
+				min-width:1201px;
+				/*border-bottom:1px solid #f69;*/
+				height:50px;
+				line-height:50px;
+				background:#fff;
+				
+			}
+			.search{margin-top: 12px;}
+			.shopping-cart{margin-top: 5px;}
+			#nav:hover{opacity: 1;}
+			#nav.fixed{
+				position:fixed;
+				top:0;
+			}
+			#nav ul{
+				width:1201px;
+				margin:0 auto;
+				height:50px;
+			}
+			#nav ul li{
+				list-style:none;
+				float:left;
+				font-family:'Microsoft yahei';
+				font-size:16px;
+			}
+			#nav ul li a{
+				color:#000;
+				text-decoration:none;
+				padding:0 20px;
+			}
+			#nav ul li a:hover{
+				color:#f69;
+			}
+			#nav ul li.l2 a{
+				color:#f69;
+				font-weight:bold;
+			}

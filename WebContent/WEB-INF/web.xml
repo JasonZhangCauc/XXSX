@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>xxsxmy</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>ExitServlet</servlet-name>
+    <servlet-class>com.spark.servlet.ExitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExitServlet</servlet-name>
+    <url-pattern>/exit.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.spark.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RUserServlet</servlet-name>
+    <servlet-class>com.spark.servlet.RUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RUserServlet</servlet-name>
+    <url-pattern>/RUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.spark.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>com.spark.servlet.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/Cart.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>CreateAccount</servlet-name>
+    <servlet-class>com.spark.servlet.CreateAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateAccount</servlet-name>
+    <url-pattern>/CreateAccount.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ShowOrder</servlet-name>
+    <servlet-class>com.spark.servlet.ShowOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowOrder</servlet-name>
+    <url-pattern>/ShowOrder.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ProductinfoServlet</servlet-name>
+    <servlet-class>com.spark.servlet.ProductinfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductinfoServlet</servlet-name>
+    <url-pattern>/getInfo.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.spark.servlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/getComment.do</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+  
+  
+  
+</web-app>
